@@ -1,0 +1,81 @@
+body {
+    font-family: "Source Sans 3";
+    background-color: #FAF7F3;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+    color: rgb(16, 147, 203);
+    font-size: 24px;
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.p1 {
+    text-align: left;
+}
+
+.head2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    text-align: right;
+}
+
+.head1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+
+.p2 {
+    text-align: right;
+}
+
+.head3{
+    text-align: center;
+    font-size: 28px;
+}
+
+.he1{
+    text-align: center;
+    font-size: 38px;
+}
+
+.ri-check-fill{
+    font-size: 38px;
+    color: rgb(143, 201, 219);
+}
+
+.fa-solid fa-face-smile{
+    font-size: 38px;
+    color: aqua;
+}
+
+.he2{
+    font-size: 38px;
+    text-align: left;
+}
+
+.p3{
+    text-align: center;
+}
+.ri-map-pin-line{
+  font-size: 38px;
+}
+.p4{
+  text-align: center;
+}
