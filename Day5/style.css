@@ -1,0 +1,89 @@
+body {
+      
+      padding: 40px;
+     
+}
+
+.box{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 50px;
+}
+ button {
+      height: 50px;
+      width: 170px;
+      border-radius: 30px;
+      color: white;
+      font-weight: bolder;
+      font-size: 15px;
+      border: none;
+    
+}
+
+.b1{
+      background: linear-gradient(to right, #2AB6D2, #3CDD9E);
+        box-shadow: 0 0 20px rgba(66, 159, 139, 0.6);
+}
+
+.b2 {
+
+      background: linear-gradient(to right, #F3BC57, #E5430B);
+      box-shadow: 0 0 20px rgba(214, 140, 71, 0.6);
+}
+
+.b3{
+
+      background: linear-gradient(to right, #6977DF, #7452AC);
+      box-shadow: 0 0 20px rgba(201, 87, 216, 0.6);
+}
+
+.b4 {
+
+      background: linear-gradient(to right, #FC686E, #FF904D);
+      box-shadow: 0 0 20px rgba(237, 144, 56, 0.6);
+}
+
+.b5  {
+
+      background: linear-gradient(to right, #13A768, #35B78B);
+      box-shadow: 0 0 20px rgba(66, 202, 8, 0.6);
+}
+
+.b6  {
+
+      background: linear-gradient(to right, #3AA73C, #EAE724);
+      box-shadow: 0 0 20px rgba(81, 163, 47, 0.6);
+}
+
+.b7 {
+
+      background: linear-gradient(to right, #684CD3, #80329B);
+      box-shadow: 0 0 20px rgba(214, 107, 212, 0.6);
+}
+
+
+.b8 {
+
+      background: linear-gradient(to right, #2E3843, #45525F);
+      box-shadow: 0 0 20px rgba(10, 7, 10, 0.6);
+}
+
+.b9 {
+
+      background: linear-gradient(to right, #27A8E1, #4186EA);
+      box-shadow: 0 0 20px rgba(31, 128, 189, 0.6);
+}
+
+.b10 {
+
+      background: linear-gradient(to right, #ED719B, #EC896F);
+      box-shadow: 0 0 20px rgba(210, 57, 103, 0.6);
+}
+
+
+.b11  {
+
+      background: linear-gradient(to right, #EC3E46, #F0595F);
+      box-shadow: 0 0 20px rgba(216, 37, 37, 0.6);
+}
