@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+ .tablebox {
+        display: table;
+       border: 1px solid black;
+       width:70%;
+       height: 300px;
+       
+    }
+
+    .caption{
+  display: table-caption;
+}
+
+    .tablerow {
+      display: table-row;
+       text-align: center;
+       
+    }
+
+    .tablerow .tablehead {
+      display: table-cell;
+      border: 1px solid black;
+      
+      
+    }
+    .tablecell-1{
+      display: table-cell;
+      border: 1px solid black;
+       
+        
+    }
+   
