@@ -1,0 +1,146 @@
+body{
+
+     height: 800px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  
+}
+.article{
+   
+    background-color: #CCCCCC;
+    border: 1px solid black;
+    height: 700px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+    
+}
+
+.article .article-1{
+    height: 200px;
+    width: 80%;
+    background-color: #F2F2F2;
+    border: 2px solid black;
+   border-radius: 5px;
+     box-shadow: 0 0 20px rgba(42, 178, 191, 0.6);
+   
+}
+.article .article-1 .heading-1 {
+    text-align: center;
+  
+}
+.article-1 .p-1{
+    padding-left: 10px;
+    
+    
+    
+}
+h2::first-letter {
+  font-size: 200%;
+  color: red;
+}
+p::selection {
+  background-color: #FFFBCC;
+  color: black;
+  
+}
+.article-1 .p-2{
+    padding-left: 10px;
+    background-color: #E0F7FA;
+    
+    
+}
+.p-2::selection {
+  background-color: #C5E1A5;
+  color: black;
+  font-weight: bold;
+  
+}
+
+
+
+
+
+.article .article-2{
+    height: 200px;
+    /* width: 100%; */
+    background-color: #FFFFFF;
+    border: 2px solid black;
+   border-radius: 5px;
+     box-shadow: 0 0 20px rgba(42, 178, 191, 0.6);
+
+   
+}
+.article .article-2 .heading-2 {
+    text-align: center;
+  
+}
+.article-1 .p-1{
+    padding-left: 10px;
+    
+    
+    
+}
+h2::first-letter {
+  font-size: 200%;
+  color: red;
+}
+p::selection {
+  background-color: #FFFBCC;
+  color: black;
+  
+}
+.article-1 .p-2{
+    padding-left: 10px;
+    background-color: #E0F7FA;
+    
+    
+}
+.p-2::selection {
+  background-color: #C5E1A5;
+  color: black;
+  font-weight: bold;
+  
+}
+
+
+
+.article .article-3{
+    height: 170px;
+    /* width: 100%; */
+    background-color: #F2F2F2;
+    border: 2px solid black;
+   border-radius: 5px;
+     box-shadow: 0 0 20px rgba(42, 178, 191, 0.6);
+
+   
+}
+.article .article-3 .heading-3 {
+    text-align: center;
+  
+}
+.article-3 .p-1{
+    padding-left: 10px;
+    
+    
+    
+}
+h2::first-letter {
+  font-size: 200%;
+  color: red;
+}
+p::selection {
+  background-color: #FFFBCC;
+  color: black;
+  
+}
+.article-3 .p-2{
+    padding-left: 10px;
+    background-color: #E0F7FA;
+    
+    
+}
+
