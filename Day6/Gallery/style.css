@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gray;
+    width: 100%;
+ 
+    columns: 6;
+}
+.container{
+    margin: 5px;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
