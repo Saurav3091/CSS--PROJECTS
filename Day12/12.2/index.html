@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex properties</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="body body-1">
+            <div class="container">
+                <div class="head">
+                    <h1>Display : Flex (Parent Property) Justify-Content</h1>
+                    <li>justify-content is a CSS property that aligns and distributes items along the main axis in flex
+                        or grid containers.
+                        It controls spacing using values like flex-start, center, space-between, etc.
+                    </li>
+                    <li>justify-content is a CSS property used in flexbox and grid layouts to define how space is
+                        distributed between and around items along the main axis of the container.
+                    </li>
+
+                    <h2>Display : Flex (Parent Property) Justify-Content : flex-start;</h2>
+                    <li>flex-start aligns flex items to the start of the main axis of the container.It places all items
+                        together at the beginning, without extra space between them.</li>
+                </div>
+
+
+                <div class="sub-box box-1">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Justify-Content : flex-end;</h2>
+                    <li>flex-end aligns flex items to the end of the main axis of the container.It places all items
+                        together at the beginning, without extra space between them.</li>
+                </div>
+                <div class="sub-box box-2">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Justify-Content : Center;</h2>
+                    <li>justify-content: center centers flex or grid items horizontally along the main axis.All items
+                        are grouped together in the center of the container, with equal space on both sides.</li>
+                </div>
+                <div class="sub-box box-3">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Justify-Content : space-between;</h2>
+                    <li>justify-content: space-between distributes items evenly along the main axis, with the first item
+                        at the start and the last at the end.
+                        The remaining items are spaced equally between, with no space at the container edges.</li>
+                </div>
+                <div class="sub-box box-4">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Justify-Content : space-around;</h2>
+                    <li>justify-content: space-around; distributes items with equal space around them, meaning:
+                        <br>
+                        • Each item gets equal space on the left and right.
+                        <br>
+                        • The space between items is twice the space on the outer edges of the container.
+                    </li>
+                </div>
+                <div class="sub-box box-5">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Justify-Content : space-evenly;</h2>
+                    <li>justify-content: space-evenly; distributes items with equal space around them, meaning:
+
+                        • The space between each item is equal.
+                        <br>
+                        • The space to the left of the first item and the space to the right of the last item are also
+                        equal to the space between the items.
+                    </li>
+                </div>
+                <div class="sub-box box-6">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body body-1">
+            <div class="container">
+                <div class="head">
+                    <h1>Display : Flex (Parent Property) Align-Items</h1>
+                    <li>Align-items is a CSS property used in Flexbox and Grid layouts to align items along the cross
+                        axis (perpendicular to the main axis).
+
+                    </li>
+                    <li>It controls how items are positioned vertically (in a row layout) or horizontally (in a column
+                        layout).
+                    </li>
+                    <br>
+                    <h2>Display : Flex (Parent Property) Align-Content : flex-start;</h2>
+                    <li>align-content: flex-start; is a CSS property used in Flexbox (when there are multiple lines of
+                        content).
+                        It aligns all the flex lines to the start of the cross axis, leaving extra space at the end.
+                    </li>
+                </div>
+
+
+                <div class="sub-box box-7">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Align-Content : flex-end;</h2>
+                    <li>align-content: flex-end; aligns multiple flex lines to the end of the cross axis of the
+                        container.
+                        It works only when items wrap into multiple lines using flex-wrap.
+                    </li>
+                </div>
+                <div class="sub-box box-8">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Align-Content : Center;</h2>
+                    <li>align-content: center centers multiple flex lines along the cross axis of the flex container. It only applies when there's extra space and the container has more than one line (i.e., flex-wrap is used).
+                    </li>
+                </div>
+                <div class="sub-box box-9">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Align-Content : Stretch;</h2>
+                    <li>align-content: stretch spreads multiple flex lines to fill the available space along the cross axis. It's the default value and only applies when wrapping (flex-wrap) is enabled.
+                    </li>
+                </div>
+                <div class="sub-box box-10">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Align-Content : Space-Between;</h2>
+                    <li>align-content: space-between evenly distributes multiple flex lines along the cross axis, placing the first line at the start and the last line at the end, with equal space between the lines. It only works when the flex container has multiple lines (with wrapping).
+                    </li>
+                </div>
+                <div class="sub-box box-11">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Align-Content : Space-Around;</h2>
+                    <li>align-content: space-around distributes multiple flex lines along the cross axis with equal space around each line, creating half-sized spaces at the start and end. It applies only when the container has multiple lines (with wrapping).
+                    </li>
+                </div>
+                <div class="sub-box box-12">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Parent Property) Align-Content : Space-Evenly;</h2>
+                    <li>align-content: space-evenly distributes multiple flex lines along the cross axis with equal space between, before, and after the lines. It works only when the flex container has multiple lines (with wrapping).
+                    </li>
+                </div>
+                <div class="sub-box box-13">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>

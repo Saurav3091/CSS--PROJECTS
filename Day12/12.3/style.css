@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: "poppins";
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.body{
+    margin-bottom: 50px;
+    height: 400px;
+    background-color: #6d6476;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.head{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p{
+    width: 95%;
+}
+
+.sub-box{
+    height: 300px;
+    width: 95%;
+    background-color: lightblue;
+    color: black;
+    
+}
+
+.box{
+   width: 100px;
+   height: 100px;
+   background-color: beige;
+   text-align: center;
+   align-content: center;
+   /* margin: 5px; */
+   border: 1px solid black;
+}
+
+.box-1{
+    display: flex;
+}
+
+.box-1 .i-1{
+    flex-basis: auto;
+}
+.box-1 .i-2{
+    flex-basis: 20px;
+}
+.box-1 .i-3{
+    flex-basis: 34%;
+}
+
+.box-2{
+    display: flex;
+}
+
+.box-2 .i-1{
+    flex-grow: auto;
+}
+.box-2 .i-2{
+    flex-grow:1;
+}
+.box-2 .i-3{
+    flex-grow:2;
+}
+
+.box-3{
+    display: flex;
+}
+
+.box-3 .i-1{
+    flex-shrink: 0;
+}
+.box-3 .i-2{
+    flex-shrink: 1;
+}
+.box-3 .i-3{
+    flex-shrink: 2;
+}
+
+.box-4{
+    display: flex;
+}
+
+.box-4 .i-1{
+    order: 0;
+}
+.box-4 .i-2{
+    order: 1;
+}
+.box-4 .i-3{
+    order: 0;
+}
+
+.box-5{
+    display: flex;
+}
+.box-5 .i-1{
+    align-self: 1;
+}
+.box-5 .i-2{
+    align-self: flex-start;
+}
+.box-5 .i-3{
+    align-self: flex-start;
+}
+
+.box-6{
+    display: flex;
+}
+
+.box-6 .i-2{
+   align-self: center;
+}
+
+
+.box-7{
+    display: flex;
+}
+
+.box-7 .i-2{
+    align-self: stretch;
+}
+
+.box-8{
+    display: flex;
+}
+
+.box-8 .item{
+    align-self: baseline;
+}
+

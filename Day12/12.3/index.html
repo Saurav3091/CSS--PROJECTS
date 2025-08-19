@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex properties</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Child Property) Flex-Basis</h2>
+                    <li>flex-basis defines the initial size of a flex item before space is distributed by flex-grow or
+                        flex-shrink.
+                        It can be a length (e.g., 100px), auto, or 0, affecting how the item sizes within the flex
+                        container.
+                    </li>
+
+                </div>
+
+
+                <div class="sub-box box-1">
+                    <div class="box i-1">Flex-basis:Auto</div>
+                    <div class="box i-2">Flex-basis:20px</div>
+                    <div class="box i-3">Flex-basis:34%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Child Property) Flex-Grow</h2>
+                    <li>The flex-grow property defines how much a flex item will grow relative to the rest of the
+                        flex items inside a flex container.
+                    </li>
+                    <li>It accepts a unitless number (e.g., 1, 2, etc.), where higher values mean the item grows
+                        more.
+                        If all items have flex-grow: 0, none will grow to fill extra space.
+                    </li>
+
+                </div>
+
+
+                <div class="sub-box box-2">
+                    <div class="box i-1">Flex-grow:Auto;</div>
+                    <div class="box i-2">Flex-grow:1;</div>
+                    <div class="box i-3">Flex-grow:2;</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Child Property) Flex-Shrink</h2>
+                    <li>The flex-shrink property determines how much a flex item will shrink relative to others when
+                        there isn’t enough space.
+                        It uses a unitless number; higher values shrink more, while 0 prevents shrinking.
+                    </li>
+
+                </div>
+
+
+                <div class="sub-box box-3">
+                    <div class="box i-1">Flex-shrink:0;</div>
+                    <div class="box i-2">Flex-shrink:1;</div>
+                    <div class="box i-3">Flex-shrink:2;</div>
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">6</div>
+                    <div class="box">7</div>
+                    <div class="box">8</div>
+                    <div class="box">9</div>
+                    <div class="box">10</div>
+                    <div class="box">11</div>
+                    <div class="box">12</div>
+                    <div class="box">13</div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Child Property) Order</h2>
+                    <li>The order property in Flexbox controls the order of items within a flex container. Items with lower order values appear before those with higher values.
+                    </li>
+
+                </div>
+
+
+                <div class="sub-box box-4">
+                    <div class="box i-1">Order:0;</div>
+                    <div class="box i-2">Order:1;</div>
+                    <div class="box i-3">Order:2;</div>
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">6</div>
+                    <div class="box">7</div>
+                    <div class="box">8</div>
+                    <div class="box">9</div>
+                    <div class="box">10</div>
+                    <div class="box">11</div>
+                    <div class="box">12</div>
+                    <div class="box">13</div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Child Property) Align-Self:flex-start;</h2>
+                    <li>The align-self: flex-start property in Flexbox aligns a specific flex item to the start of the cross axis, overriding the container's align-items setting.
+                    </li>
+                    <li>
+                        align-self: flex-start aligns a flex item to the start of the cross axis. It overrides the container’s align-items value for that item only.
+                    </li>
+                </div>
+
+
+                <div class="sub-box box-5">
+                    <div class="box i-1">1</div>
+                    <div class="box i-2">align-self:flex-start;</div>
+                    <div class="box i-3">align-self:flex-start;</div>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Child Property) Align-Self:Center;</h2>
+                    <li>align-self: center centers a flex item along the cross axis of the flex container. It overrides the container’s align-items value for that specific item.
+                    </li>
+                </div>
+
+
+                <div class="sub-box box-6">
+                    <div class="box i-1">1</div>
+                    <div class="box i-2">align-self:flex-center;</div>
+                    <div class="box i-3">2</div>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Child Property) Align-Self:Stretch;</h2>
+                    <li>align-self: stretch makes a flex item expand to fill the available space along the cross axis. This is the default value and works if the item's size isn’t fixed in that direction.
+                    </li>
+                </div>
+
+
+                <div class="sub-box box-7">
+                    <div class="box i-1">1</div>
+                    <div class="box i-2">align-self:stretch;</div>
+                    <div class="box i-3">2</div>
+                    <div class="box i-1">1</div>
+                    <div class="box i-2">align-self:stretch;</div>
+                    <div class="box i-3">2</div>
+                    <div class="box i-1">1</div>
+                    <div class="box i-2">align-self:stretch;</div>
+                    <div class="box i-3">2</div>
+                    <div class="box">3</div>
+                    <div class="box">4</div>
+                    <div class="box">5</div>
+                    <div class="box">6</div>
+                    <div class="box">7</div>
+                    <div class="box">8</div>
+                    <div class="box">9</div>
+                    <div class="box">10</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="body">
+            <div class="container">
+                <div class="head">
+                    <h2>Display : Flex (Child Property) Align-Self:Baseline;</h2>
+                    <li>align-self: baseline aligns a flex item’s text baseline with the baselines of other items in the container. It’s useful for aligning text or inline elements consistently.
+                    </li>
+                </div>
+
+
+                <div class="sub-box box-8">
+                    <div class="box item">1</div>
+                    <div class="box item">2</div>
+                    <div class="box item">3</div>
+                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
